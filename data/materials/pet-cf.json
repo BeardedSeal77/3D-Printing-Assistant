@@ -1,0 +1,101 @@
+{
+  "id": "pet-cf",
+  "name": "PET-CF",
+  "uts_mpa": 131.0,
+  "uts_label": "131 MPa (Bambu tested)",
+  "modulus_gpa": 5.32,
+  "modulus_label": "5320 MPa (Bambu tested)",
+  "hdt_c": 205.0,
+  "hdt_label": "205 °C (Bambu tested)",
+  "shrinkage_pct": 100.2,
+  "fails_by": "Stiff, semi-brittle",
+  "creep_rt": "Very low",
+  "heated_chamber": true,
+  "watch_for": "Dry hard; ~300°C — at your ceiling",
+  "breakaway_support": "PET support / PETG",
+  "soluble_support": null,
+  "do_not_use_as_support": "PLA",
+  "fixture_rating": "Best available",
+  "nozzle_c": [
+    260.0,
+    300.0
+  ],
+  "bed_c": [
+    70.0,
+    100.0
+  ],
+  "chamber_c": [
+    55.0,
+    65.0
+  ],
+  "hardened_nozzle": true,
+  "must_dry": "Yes",
+  "ams2_pro": "No (external spool)",
+  "elongation_at_break_pct": 3.5,
+  "curve_class": "semi-brittle",
+  "support": {
+    "PLA": "No",
+    "PETG": "Good",
+    "ABS": "OK",
+    "HIPS": "OK",
+    "PVA": "No",
+    "BVOH": "No",
+    "PA support": "No",
+    "PET support": "Good"
+  },
+  "bambu": {
+    "name": "PET-CF",
+    "toughness_kj_m2": 36.0,
+    "strength_mpa": 131.0,
+    "stiffness_mpa": 5320.0,
+    "layer_adhesion_mpa": 4.5,
+    "hdt_c": 205.0,
+    "water_absorption_pct": 0.37,
+    "dry_before_use": "Required",
+    "dry_required": true,
+    "drying_condition": "Blast Drying Oven: 80 °C，8 - 12 h\nPrinter Heatbed (Covered, Flip midway): 90 - 100 ℃, 12 h",
+    "ams_compatible": false,
+    "nozzle_temp_c": [
+      260.0,
+      300.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          70.0,
+          100.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          70.0,
+          100.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "0.6mm",
+      "0.4mm",
+      "0.8mm"
+    ],
+    "nozzle_material": "Hardened Steel",
+    "print_speed_mm_s": 100,
+    "part_cooling_fan": "0 - 40%",
+    "enclosure_required": false,
+    "seal_with_desiccant": true,
+    "annealing": {
+      "temp_c": [
+        90.0,
+        130.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Glue Stick"
+  }
+}

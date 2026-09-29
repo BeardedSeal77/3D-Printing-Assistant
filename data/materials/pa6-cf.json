@@ -1,0 +1,104 @@
+{
+  "id": "pa6-cf",
+  "name": "PA6-CF",
+  "uts_mpa": 151.0,
+  "uts_label": "151 MPa (Bambu tested)",
+  "modulus_gpa": 5.46,
+  "modulus_label": "5460 MPa (Bambu tested)",
+  "hdt_c": 186.0,
+  "hdt_label": "186 ℃ (Bambu tested)",
+  "shrinkage_pct": 100.4,
+  "fails_by": "Tough, ductile",
+  "creep_rt": "Low-med",
+  "heated_chamber": true,
+  "watch_for": "Moisture plasticises it; properties drift. PAHT-CF (PA12 based) behaves much the same with less moisture uptake",
+  "breakaway_support": "PA support",
+  "soluble_support": "BVOH",
+  "do_not_use_as_support": "PVA above ~250°C",
+  "fixture_rating": "Good - moisture drift",
+  "nozzle_c": [
+    260.0,
+    300.0
+  ],
+  "bed_c": [
+    100.0,
+    120.0
+  ],
+  "chamber_c": [
+    55.0,
+    65.0
+  ],
+  "hardened_nozzle": true,
+  "must_dry": "Yes",
+  "ams2_pro": "No (external spool)",
+  "elongation_at_break_pct": 5,
+  "curve_class": "ductile",
+  "support": {
+    "PLA": "No",
+    "PETG": "No",
+    "ABS": "No",
+    "HIPS": "No",
+    "PVA": "No",
+    "BVOH": "Good",
+    "PA support": "Good",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "PA6-CF",
+    "toughness_kj_m2": 40.3,
+    "strength_mpa": 151.0,
+    "stiffness_mpa": 5460.0,
+    "layer_adhesion_mpa": 15.5,
+    "hdt_c": 186.0,
+    "water_absorption_pct": 2.35,
+    "dry_before_use": "Required",
+    "dry_required": true,
+    "drying_condition": "Blast Drying Oven: 80 °C，8 - 12 h\nPrinter Heatbed (Covered, Flip midway): 90 - 100 ℃, 12 h",
+    "ams_compatible": false,
+    "nozzle_temp_c": [
+      260.0,
+      300.0
+    ],
+    "bed_temp_c": [
+      100.0,
+      110.0
+    ],
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          100.0,
+          120.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          100.0,
+          120.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "0.6mm",
+      "0.4mm",
+      "0.8mm"
+    ],
+    "nozzle_material": "Hardened Steel",
+    "print_speed_mm_s": 100,
+    "part_cooling_fan": "0 - 40%",
+    "enclosure_required": true,
+    "seal_with_desiccant": true,
+    "annealing": {
+      "temp_c": [
+        90.0,
+        130.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Glue Stick"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "pa6",
+  "name": "PA6 (Nylon)",
+  "uts_mpa": 65.0,
+  "uts_label": "~60–70",
+  "modulus_gpa": 1.8,
+  "modulus_label": "~1.5–2.0",
+  "hdt_c": 70.0,
+  "hdt_label": "~65–75",
+  "shrinkage_pct": 101.0,
+  "fails_by": "Tough, very ductile",
+  "creep_rt": "Med (high when damp)",
+  "heated_chamber": true,
+  "watch_for": "Warps badly without a chamber; absorbs moisture fast and goes soft; poor bridging and stringing",
+  "breakaway_support": "PA support",
+  "soluble_support": "BVOH",
+  "do_not_use_as_support": "PVA above ~250°C",
+  "fixture_rating": "Fair - tough but soft, creeps when damp",
+  "nozzle_c": [
+    260.0,
+    290.0
+  ],
+  "bed_c": [
+    80.0,
+    100.0
+  ],
+  "chamber_c": [
+    50.0,
+    65.0
+  ],
+  "hardened_nozzle": false,
+  "must_dry": "Yes",
+  "ams2_pro": "Yes (dry it first)",
+  "elongation_at_break_pct": 80,
+  "curve_class": "ductile",
+  "support": {
+    "PLA": "No",
+    "PETG": "No",
+    "ABS": "No",
+    "HIPS": "No",
+    "PVA": "No",
+    "BVOH": "Good",
+    "PA support": "Good",
+    "PET support": "No"
+  }
+}

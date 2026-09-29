@@ -1,0 +1,110 @@
+{
+  "id": "pla",
+  "name": "PLA",
+  "uts_mpa": 76.0,
+  "uts_label": "76 MPa (Bambu tested)",
+  "modulus_gpa": 2.75,
+  "modulus_label": "2750 MPa (Bambu tested)",
+  "hdt_c": 57.0,
+  "hdt_label": "57 °C (Bambu tested)",
+  "shrinkage_pct": 100.3,
+  "fails_by": "Brittle fracture",
+  "creep_rt": "Low",
+  "heated_chamber": false,
+  "watch_for": "Dies at 60°C, incl. a hot car",
+  "breakaway_support": "PETG",
+  "soluble_support": "PVA",
+  "do_not_use_as_support": null,
+  "fixture_rating": "Fair - 60°C limit",
+  "nozzle_c": [
+    190.0,
+    230.0
+  ],
+  "bed_c": [
+    30.0,
+    65.0
+  ],
+  "chamber_c": null,
+  "hardened_nozzle": false,
+  "must_dry": "No",
+  "ams2_pro": "Yes",
+  "elongation_at_break_pct": 6,
+  "curve_class": "brittle",
+  "support": {
+    "PLA": "No",
+    "PETG": "Good",
+    "ABS": "OK",
+    "HIPS": "OK",
+    "PVA": "Good",
+    "BVOH": "Good",
+    "PA support": "No",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "PLA Basic",
+    "toughness_kj_m2": 26.6,
+    "strength_mpa": 76.0,
+    "stiffness_mpa": 2750.0,
+    "layer_adhesion_mpa": 13.8,
+    "hdt_c": 57.0,
+    "water_absorption_pct": 0.43,
+    "dry_before_use": "Optional",
+    "dry_required": false,
+    "drying_condition": "Blast Drying Oven: 50 °C，8 h\nPrinter Heatbed (Covered, Flip midway): 60 - 70 ℃, 12 h",
+    "ams_compatible": true,
+    "nozzle_temp_c": [
+      190.0,
+      230.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Cool Plate",
+        "temp_c": [
+          35.0,
+          55.0
+        ]
+      },
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          55.0,
+          65.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          55.0,
+          65.0
+        ]
+      },
+      {
+        "plate": "Cool Plate SuperTack",
+        "temp_c": [
+          30.0,
+          45.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "all"
+    ],
+    "nozzle_material": "Material",
+    "print_speed_mm_s": 300,
+    "part_cooling_fan": "50 - 100%",
+    "enclosure_required": false,
+    "seal_with_desiccant": false,
+    "annealing": {
+      "temp_c": [
+        50.0,
+        60.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Bambu Liquid Glue\nGlue Stick"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "tpu-95a",
+  "name": "TPU 95A",
+  "uts_mpa": 30.0,
+  "uts_label": "~30",
+  "modulus_gpa": 0.02,
+  "modulus_label": "~0.02",
+  "hdt_c": null,
+  "hdt_label": null,
+  "shrinkage_pct": null,
+  "fails_by": "Elastomeric",
+  "creep_rt": null,
+  "heated_chamber": false,
+  "watch_for": "Slow; AMS routing can be an issue",
+  "breakaway_support": "PLA",
+  "soluble_support": "PVA",
+  "do_not_use_as_support": null,
+  "fixture_rating": "Not applicable",
+  "nozzle_c": [
+    220.0,
+    240.0
+  ],
+  "bed_c": [
+    30.0,
+    35.0
+  ],
+  "chamber_c": null,
+  "hardened_nozzle": true,
+  "must_dry": "Yes",
+  "ams2_pro": "No (external spool)",
+  "elongation_at_break_pct": 450,
+  "curve_class": "elastomer",
+  "support": {
+    "PLA": "Good",
+    "PETG": "OK",
+    "ABS": "No",
+    "HIPS": "No",
+    "PVA": "Good",
+    "BVOH": "Good",
+    "PA support": "No",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "TPU 95A HF",
+    "toughness_kj_m2": 123.2,
+    "strength_mpa": null,
+    "stiffness_mpa": null,
+    "layer_adhesion_mpa": 86.3,
+    "hdt_c": null,
+    "water_absorption_pct": 1.08,
+    "dry_before_use": "Required",
+    "dry_required": true,
+    "drying_condition": "Blast Drying Oven: 70 °C，8 h\nPrinter Heatbed (Covered, Flip midway): 80 - 90 ℃, 12 h",
+    "ams_compatible": false,
+    "nozzle_temp_c": [
+      220.0,
+      240.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          30.0,
+          35.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          30.0,
+          35.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "0.4mm",
+      "0.6mm",
+      "0.8mm"
+    ],
+    "nozzle_material": "Hardened Steel / Stainless steel",
+    "print_speed_mm_s": 200,
+    "part_cooling_fan": "50 - 100%",
+    "enclosure_required": false,
+    "seal_with_desiccant": true,
+    "annealing": null,
+    "adhesion_methods": "Bambu Liquid Glue\nGlue Stick"
+  }
+}

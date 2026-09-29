@@ -1,0 +1,99 @@
+{
+  "id": "abs",
+  "name": "ABS",
+  "uts_mpa": 62.0,
+  "uts_label": "62 MPa (Bambu tested)",
+  "modulus_gpa": 1.88,
+  "modulus_label": "1880 MPa (Bambu tested)",
+  "hdt_c": 87.0,
+  "hdt_label": "87 ℃ (Bambu tested)",
+  "shrinkage_pct": 100.7,
+  "fails_by": "Ductile, tough",
+  "creep_rt": "Low",
+  "heated_chamber": true,
+  "watch_for": "~0.7% shrink; VOCs",
+  "breakaway_support": "PETG, HIPS",
+  "soluble_support": "HIPS (limonene)",
+  "do_not_use_as_support": "PLA — chamber cooks it",
+  "fixture_rating": "Very good",
+  "nozzle_c": [
+    240.0,
+    280.0
+  ],
+  "bed_c": [
+    90.0,
+    100.0
+  ],
+  "chamber_c": [
+    50.0,
+    65.0
+  ],
+  "hardened_nozzle": false,
+  "must_dry": "Mild",
+  "ams2_pro": "Yes",
+  "elongation_at_break_pct": 15,
+  "curve_class": "ductile",
+  "support": {
+    "PLA": "No",
+    "PETG": "Good",
+    "ABS": "No",
+    "HIPS": "Good",
+    "PVA": "No",
+    "BVOH": "No",
+    "PA support": "No",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "ABS",
+    "toughness_kj_m2": 39.3,
+    "strength_mpa": 62.0,
+    "stiffness_mpa": 1880.0,
+    "layer_adhesion_mpa": 7.4,
+    "hdt_c": 87.0,
+    "water_absorption_pct": 0.65,
+    "dry_before_use": "Optional",
+    "dry_required": false,
+    "drying_condition": "Blast Drying Oven: 80 °C，8 h\nPrinter Heatbed (Covered, Flip midway): 90 - 100 ℃, 12 h",
+    "ams_compatible": true,
+    "nozzle_temp_c": [
+      240.0,
+      280.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          90.0,
+          100.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          90.0,
+          100.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "all"
+    ],
+    "nozzle_material": null,
+    "print_speed_mm_s": 300,
+    "part_cooling_fan": "0 - 80%",
+    "enclosure_required": true,
+    "seal_with_desiccant": false,
+    "annealing": {
+      "temp_c": [
+        80.0,
+        90.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Bambu Liquid Glue\nGlue Stick"
+  }
+}

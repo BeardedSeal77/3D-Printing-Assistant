@@ -1,0 +1,62 @@
+{
+  "_comment": "Columns of the support matrix, in order. Entries with material_id take their temps from data/materials/<id>.json; the rest are support-only materials. chamber_optional = tolerates a chamber up to chamber_c[1] but does not need one.",
+  "support_materials": [
+    {
+      "name": "PLA",
+      "material_id": "pla"
+    },
+    {
+      "name": "PETG",
+      "material_id": "petg"
+    },
+    {
+      "name": "ABS",
+      "material_id": "abs"
+    },
+    {
+      "id": "hips",
+      "name": "HIPS",
+      "nozzle_c": [230, 250],
+      "bed_c": [90, 110],
+      "chamber_c": [50, 65],
+      "chamber_optional": false,
+      "note": "Breakaway for ABS/ASA; dissolves in limonene. Needs the same hot bed and chamber as ABS."
+    },
+    {
+      "id": "pva",
+      "name": "PVA",
+      "nozzle_c": [190, 220],
+      "bed_c": [45, 75],
+      "chamber_c": [0, 50],
+      "chamber_optional": true,
+      "note": "Water soluble. Degrades above ~250°C nozzle and softens in a hot chamber. Must be genuinely dry."
+    },
+    {
+      "id": "bvoh",
+      "name": "BVOH",
+      "nozzle_c": [190, 230],
+      "bed_c": [45, 90],
+      "chamber_c": [0, 70],
+      "chamber_optional": true,
+      "note": "Water soluble, takes higher bed and chamber temps than PVA, which is why it pairs with nylon. Must be genuinely dry."
+    },
+    {
+      "id": "pa-support",
+      "name": "PA support",
+      "nozzle_c": [260, 300],
+      "bed_c": [80, 100],
+      "chamber_c": [0, 70],
+      "chamber_optional": true,
+      "note": "Bambu Support for PA/PET or equivalent. Breakaway interface for nylon."
+    },
+    {
+      "id": "pet-support",
+      "name": "PET support",
+      "nozzle_c": [260, 300],
+      "bed_c": [80, 100],
+      "chamber_c": [0, 70],
+      "chamber_optional": true,
+      "note": "Bambu Support for PA/PET or equivalent. Breakaway interface for PET-CF."
+    }
+  ]
+}

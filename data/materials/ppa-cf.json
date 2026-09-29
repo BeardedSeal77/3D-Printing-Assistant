@@ -1,0 +1,101 @@
+{
+  "id": "ppa-cf",
+  "name": "PPA-CF",
+  "uts_mpa": 208.0,
+  "uts_label": "208 MPa (Bambu tested)",
+  "modulus_gpa": 9.86,
+  "modulus_label": "9860 MPa (Bambu tested)",
+  "hdt_c": 227.0,
+  "hdt_label": "227 °C (Bambu tested)",
+  "shrinkage_pct": 100.2,
+  "fails_by": "Stiff, semi-brittle",
+  "creep_rt": "Very low",
+  "heated_chamber": true,
+  "watch_for": "Very abrasive; nozzle 280-320°C is at the top of the range; low moisture uptake compared with PA6 but still dry it; brittle filament, handle the spool path gently",
+  "breakaway_support": "PA support",
+  "soluble_support": "—",
+  "do_not_use_as_support": "PLA, PETG, PVA",
+  "fixture_rating": "Best of the nylons - stiffest and most heat tolerant",
+  "nozzle_c": [
+    280.0,
+    310.0
+  ],
+  "bed_c": [
+    100.0,
+    120.0
+  ],
+  "chamber_c": [
+    55.0,
+    70.0
+  ],
+  "hardened_nozzle": true,
+  "must_dry": "Yes",
+  "ams2_pro": "No (external spool)",
+  "elongation_at_break_pct": 4,
+  "curve_class": "semi-brittle",
+  "support": {
+    "PLA": "No",
+    "PETG": "No",
+    "ABS": "No",
+    "HIPS": "No",
+    "PVA": "No",
+    "BVOH": "OK",
+    "PA support": "Good",
+    "PET support": "OK"
+  },
+  "bambu": {
+    "name": "PPA-CF",
+    "toughness_kj_m2": 41.7,
+    "strength_mpa": 208.0,
+    "stiffness_mpa": 9860.0,
+    "layer_adhesion_mpa": 4.3,
+    "hdt_c": 227.0,
+    "water_absorption_pct": 1.3,
+    "dry_before_use": "Required",
+    "dry_required": true,
+    "drying_condition": "Blast Drying Oven: 100 - 140 °C, 8 - 12 h\n(within this range, a higher temp, a better drying result)\nPrinter Heatbed (Covered, Flip midway): 110 - 120 °C, 12 h",
+    "ams_compatible": false,
+    "nozzle_temp_c": [
+      280.0,
+      310.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          100.0,
+          120.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          100.0,
+          120.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "0.6mm",
+      "0.4mm",
+      "0.8mm"
+    ],
+    "nozzle_material": "Hardened Steel",
+    "print_speed_mm_s": 100,
+    "part_cooling_fan": "0 - 40%",
+    "enclosure_required": true,
+    "seal_with_desiccant": true,
+    "annealing": {
+      "temp_c": [
+        120.0,
+        140.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Glue Stick"
+  }
+}

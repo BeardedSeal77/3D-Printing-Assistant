@@ -1,0 +1,98 @@
+{
+  "id": "petg-cf",
+  "name": "PETG-CF",
+  "uts_mpa": 70.0,
+  "uts_label": "70 MPa (Bambu tested)",
+  "modulus_gpa": 2.91,
+  "modulus_label": "2910 MPa (Bambu tested)",
+  "hdt_c": 74.0,
+  "hdt_label": "74 °C (Bambu tested)",
+  "shrinkage_pct": 100.15,
+  "fails_by": "Semi-brittle",
+  "creep_rt": "Med",
+  "heated_chamber": false,
+  "watch_for": "Abrasive; best PETG variant for jigs",
+  "breakaway_support": "PLA",
+  "soluble_support": "PVA (marginal)",
+  "do_not_use_as_support": "PETG",
+  "fixture_rating": "Excellent",
+  "nozzle_c": [
+    240.0,
+    270.0
+  ],
+  "bed_c": [
+    60.0,
+    80.0
+  ],
+  "chamber_c": null,
+  "hardened_nozzle": true,
+  "must_dry": "Yes",
+  "ams2_pro": "Yes",
+  "elongation_at_break_pct": 6,
+  "curve_class": "semi-brittle",
+  "support": {
+    "PLA": "Good",
+    "PETG": "No",
+    "ABS": "OK",
+    "HIPS": "OK",
+    "PVA": "OK",
+    "BVOH": "OK",
+    "PA support": "No",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "PETG-CF",
+    "toughness_kj_m2": 41.2,
+    "strength_mpa": 70.0,
+    "stiffness_mpa": 2910.0,
+    "layer_adhesion_mpa": 10.7,
+    "hdt_c": 74.0,
+    "water_absorption_pct": 0.3,
+    "dry_before_use": "Optional",
+    "dry_required": false,
+    "drying_condition": "Blast Drying Oven: 65 °C，8 h\nPrinter Heatbed (Covered, Flip midway): 75 - 85 ℃, 12 h",
+    "ams_compatible": true,
+    "nozzle_temp_c": [
+      240.0,
+      270.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          60.0,
+          80.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          60.0,
+          80.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "0.4mm",
+      "0.6mm",
+      "0.8mm"
+    ],
+    "nozzle_material": "Hardened Steel",
+    "print_speed_mm_s": 200,
+    "part_cooling_fan": "0 - 40%",
+    "enclosure_required": false,
+    "seal_with_desiccant": true,
+    "annealing": {
+      "temp_c": [
+        65.0,
+        70.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Bambu Liquid Glue\nGlue Stick"
+  }
+}

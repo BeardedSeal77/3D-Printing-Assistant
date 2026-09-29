@@ -1,0 +1,99 @@
+{
+  "id": "pc",
+  "name": "PC",
+  "uts_mpa": 108.0,
+  "uts_label": "108 MPa (Bambu tested)",
+  "modulus_gpa": 2.31,
+  "modulus_label": "2310 MPa (Bambu tested)",
+  "hdt_c": 117.0,
+  "hdt_label": "117 ℃ (Bambu tested)",
+  "shrinkage_pct": 100.7,
+  "fails_by": "Very tough",
+  "creep_rt": "Low",
+  "heated_chamber": true,
+  "watch_for": "Hygroscopic; layer adhesion needs heat",
+  "breakaway_support": "ABS or PC-support",
+  "soluble_support": null,
+  "do_not_use_as_support": "PLA, PETG",
+  "fixture_rating": "Good - tough",
+  "nozzle_c": [
+    260.0,
+    290.0
+  ],
+  "bed_c": [
+    90.0,
+    110.0
+  ],
+  "chamber_c": [
+    60.0,
+    70.0
+  ],
+  "hardened_nozzle": false,
+  "must_dry": "Yes",
+  "ams2_pro": "Yes",
+  "elongation_at_break_pct": 60,
+  "curve_class": "ductile",
+  "support": {
+    "PLA": "No",
+    "PETG": "No",
+    "ABS": "Good",
+    "HIPS": "OK",
+    "PVA": "No",
+    "BVOH": "No",
+    "PA support": "No",
+    "PET support": "No"
+  },
+  "bambu": {
+    "name": "PC",
+    "toughness_kj_m2": 34.8,
+    "strength_mpa": 108.0,
+    "stiffness_mpa": 2310.0,
+    "layer_adhesion_mpa": 9.0,
+    "hdt_c": 117.0,
+    "water_absorption_pct": 0.25,
+    "dry_before_use": "Required",
+    "dry_required": true,
+    "drying_condition": "Blast Drying Oven: 80 °C，8 h\nPrinter Heatbed (Covered, Flip midway): 90 - 100 ℃, 12 h",
+    "ams_compatible": true,
+    "nozzle_temp_c": [
+      260.0,
+      290.0
+    ],
+    "bed_temp_c": null,
+    "build_plate": [
+      {
+        "plate": "Smooth PEI Plate",
+        "temp_c": [
+          90.0,
+          110.0
+        ]
+      },
+      {
+        "plate": "Textured PEI Plate",
+        "temp_c": [
+          90.0,
+          110.0
+        ]
+      }
+    ],
+    "nozzle_sizes": [
+      "all"
+    ],
+    "nozzle_material": null,
+    "print_speed_mm_s": 300,
+    "part_cooling_fan": "0 - 60%",
+    "enclosure_required": true,
+    "seal_with_desiccant": true,
+    "annealing": {
+      "temp_c": [
+        85.0,
+        100.0
+      ],
+      "hours": [
+        6,
+        12
+      ]
+    },
+    "adhesion_methods": "Glue Stick"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "notes": [
+    "Mechanical and thermal values are from Bambu Lab's filament guide (bambulab.com/en/filament/guide), tested on printed coupons. PA6 (unfilled) keeps estimated values.",
+    "The raw Bambu data is in data/bambu-reference.json (41 filaments). The bambu object inside each material document carries the original fields.",
+    "Shrinkage % is the value for the Bambu/Orca filament profile (100 = no compensation).",
+    "Specific stiffness = E (MPa) / UTS (MPa). Higher reaches its strength limit with less deflection.",
+    "Support ratings: Good = reliable breakaway or dissolvable pairing. OK = works with tuning or an interface layer. No = bonds too well or process windows do not overlap.",
+    "PLA is No against anything needing a heated chamber. PVA degrades above roughly 250°C.",
+    "Same-material support (PETG on PETG) fuses and is the classic mistake.",
+    "elongation_at_break_pct, curve_class and the process windows of support-only materials (HIPS, PVA, BVOH, PA/PET support) are typical values added for charting, not measured data.",
+    "PA6 (Nylon), PA6-GF and PPA-CF were added from typical datasheet values, not the original sheet. Dry nylon numbers: properties fall noticeably once the filament or part takes on moisture.",
+    "Stiffness rank and heat rank are worked out from the numbers on load, so they update as materials are added."
+  ]
+}
